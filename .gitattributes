@@ -1,0 +1,5 @@
+# Scripts and configs run on Linux: keep LF line endings everywhere
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.pdf binary

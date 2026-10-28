@@ -1,0 +1,28 @@
+# dependencies and builds
+node_modules/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# secrets: never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# terraform state holds secrets
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# local data
+data/
+
+# editors and OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
